@@ -1,6 +1,6 @@
-Hackintosh for Lenovo ThinkCentre M93p Tiny
+= Hackintosh for Lenovo ThinkCentre M93p Tiny =
 
-== System Info
+== System Info ==
 
 * OS       : macOS Mojave 10.14.6
 * CPU      : Intel Core i5-4570T CPU @ 2.90GHz
