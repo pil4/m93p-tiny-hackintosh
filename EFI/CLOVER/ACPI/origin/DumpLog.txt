@@ -1,0 +1,149 @@
+10:092  1:549  Found BIOS RSDP at F0010
+10:092  0:000  Printing ACPI tables from RSDP F0010 ...
+10:092  0:000   F0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:092  0:000    (Xsdt: D5167098, Rsdt: D5167028)
+10:092  0:000    D5167098: 'XSDT', 'TC-FB', Rev: 1, Len: 172
+10:092  0:000    D5167028: 'RSDT', 'TC-FB', Rev: 1, Len: 104
+10:092  0:000    Tables in Xsdt: 17
+10:092  0:000    0. D517EAA0: 'FACP', 'TC-FB', Rev: 5, Len: 268
+10:092  0:000        (Dsdt: D51671D0, Facs: D56A7F80, XDsdt: D51671D0, XFacs: 0)
+10:092  0:000        D51671D0: 'DSDT', 'TC-FB', Rev: 2, Len: 96459
+10:094  0:001        D56A7F80: 'FACS', Ver: 2, Len: 64
+10:094  0:000    1. D517EBB0: 'APIC', 'TC-FB', Rev: 3, Len: 114
+10:094  0:000    2. D517EC28: 'FPDT', 'TC-FB', Rev: 1, Len: 68
+10:094  0:000    3. D517EC70: 'FIDT', 'TC-FB', Rev: 1, Len: 156
+10:094  0:000    4. D517ED10: 'TCPA', 'TC-FB', Rev: 2, Len: 50
+10:094  0:000    5. D517ED48: 'DBGP', 'TC-FB', Rev: 1, Len: 52
+10:094  0:000    6. D517ED80: 'SLIC', 'TC-FB', Rev: 1, Len: 374
+10:094  0:000    7. D517EEF8: 'MSDM', 'TC-FB', Rev: 3, Len: 85
+10:094  0:000    8. D517EF50: 'SSDT', 'TC-FB', Rev: 1, Len: 1337
+10:094  0:000    9. D517F490: 'SSDT', 'TC-FB', Rev: 1, Len: 2776
+10:094  0:000    10. D517FF68: 'MCFG', 'TC-FB', Rev: 1, Len: 60
+10:094  0:000    11. D517FFA8: 'HPET', 'TC-FB', Rev: 1, Len: 56
+10:094  0:000    12. D517FFE0: 'SSDT', 'TC-FB', Rev: 1, Len: 877
+10:094  0:000    13. D5180350: 'SSDT', 'TC-FB', Rev: 1, Len: 13608
+10:094  0:000    14. D5183878: 'ASF!', 'TC-FB', Rev: 32, Len: 165
+10:094  0:000    15. D5183920: 'BGRT', 'TC-FB', Rev: 0, Len: 56
+10:094  0:000    16. D5183958: 'LUFT', 'TC-FB', Rev: 1, Len: 207330
+10:094  0:000    Tables in Rsdt: 17
+10:094  0:000    0. D5167148: 'FACP', 'TC-FB', Rev: 2, Len: 132
+10:094  0:000        (Dsdt: D51671D0, Facs: D56A7F40)
+10:094  0:000        D51671D0: 'DSDT', 'TC-FB', Rev: 2, Len: 96459
+10:096  0:001        D56A7F40: 'FACS', Ver: 0, Len: 64
+10:096  0:000    1. D517EBB0: 'APIC', 'TC-FB', Rev: 3, Len: 114
+10:096  0:000    2. D517EC28: 'FPDT', 'TC-FB', Rev: 1, Len: 68
+10:096  0:000    3. D517EC70: 'FIDT', 'TC-FB', Rev: 1, Len: 156
+10:096  0:000    4. D517ED10: 'TCPA', 'TC-FB', Rev: 2, Len: 50
+10:096  0:000    5. D517ED48: 'DBGP', 'TC-FB', Rev: 1, Len: 52
+10:096  0:000    6. D517ED80: 'SLIC', 'TC-FB', Rev: 1, Len: 374
+10:096  0:000    7. D517EEF8: 'MSDM', 'TC-FB', Rev: 3, Len: 85
+10:096  0:000    8. D517EF50: 'SSDT', 'TC-FB', Rev: 1, Len: 1337
+10:096  0:000    9. D517F490: 'SSDT', 'TC-FB', Rev: 1, Len: 2776
+10:096  0:000    10. D517FF68: 'MCFG', 'TC-FB', Rev: 1, Len: 60
+10:096  0:000    11. D517FFA8: 'HPET', 'TC-FB', Rev: 1, Len: 56
+10:096  0:000    12. D517FFE0: 'SSDT', 'TC-FB', Rev: 1, Len: 877
+10:096  0:000    13. D5180350: 'SSDT', 'TC-FB', Rev: 1, Len: 13608
+10:096  0:000    14. D5183878: 'ASF!', 'TC-FB', Rev: 32, Len: 165
+10:096  0:000    15. D5183920: 'BGRT', 'TC-FB', Rev: 0, Len: 56
+10:096  0:000    16. D5183958: 'LUFT', 'TC-FB', Rev: 1, Len: 207330
+10:096  0:000  Found UEFI Acpi 2.0 RSDP at D5167000
+10:096  0:000  Saving ACPI tables from RSDP D5167000 to EFI\CLOVER\ACPI\origin ...
+10:096  0:000   D5167000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+10:101  0:005    (Xsdt: D5167098, Rsdt: D5167028)
+10:101  0:000    D5167098: 'XSDT', 'TC-FB', Rev: 1, Len: 172 -> XSDT.aml
+10:104  0:002    D5167028: 'RSDT', 'TC-FB', Rev: 1, Len: 104 -> RSDT.aml
+10:106  0:002    Tables in Xsdt: 17
+10:106  0:000    0. D517EAA0: 'FACP', 'TC-FB', Rev: 5, Len: 268 -> FACP.aml
+10:109  0:002        (Dsdt: D51671D0, Facs: D56A7F80, XDsdt: D51671D0, XFacs: 0)
+10:109  0:000        D51671D0: 'DSDT', 'TC-FB', Rev: 2, Len: 96459 -> DSDT.aml
+10:115  0:006        D56A7F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+10:118  0:002    1. D517EBB0: 'APIC', 'TC-FB', Rev: 3, Len: 114 -> APIC.aml
+10:121  0:002    2. D517EC28: 'FPDT', 'TC-FB', Rev: 1, Len: 68 -> FPDT.aml
+10:125  0:004    3. D517EC70: 'FIDT', 'TC-FB', Rev: 1, Len: 156 -> FIDT.aml
+10:128  0:002    4. D517ED10: 'TCPA', 'TC-FB', Rev: 2, Len: 50 -> TCPA.aml
+10:131  0:002    5. D517ED48: 'DBGP', 'TC-FB', Rev: 1, Len: 52 -> DBGP.aml
+10:133  0:002    6. D517ED80: 'SLIC', 'TC-FB', Rev: 1, Len: 374 -> SLIC.aml
+10:136  0:002    7. D517EEF8: 'MSDM', 'TC-FB', Rev: 3, Len: 85 -> MSDM.aml
+10:139  0:002    8. D517EF50: 'SSDT', 'TC-FB', Rev: 1, Len: 1337 -> SSDT-0-TC-FB.aml
+10:141  0:002    9. D517F490: 'SSDT', 'TC-FB', Rev: 1, Len: 2776 -> SSDT-1-TC-FB.aml (Found hidden SSDT 4 pcs)
+10:145  0:003        * D3469A98: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00 
+10:145  0:000        * D50FE618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x1_0-ApIst.aml
+10:148  0:002        * D50FEC18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x1_1-Cpu0Cst.aml
+10:151  0:002        * D50FDD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x1_2-ApCst.aml
+10:153  0:002  
+10:153  0:000    10. D517FF68: 'MCFG', 'TC-FB', Rev: 1, Len: 60 -> MCFG.aml
+10:156  0:002    11. D517FFA8: 'HPET', 'TC-FB', Rev: 1, Len: 56 -> HPET.aml
+10:159  0:002    12. D517FFE0: 'SSDT', 'TC-FB', Rev: 1, Len: 877 -> SSDT-2-TC-FB.aml
+10:162  0:003    13. D5180350: 'SSDT', 'TC-FB', Rev: 1, Len: 13608 -> SSDT-3-TC-FB.aml
+10:165  0:002    14. D5183878: 'ASF!', 'TC-FB', Rev: 32, Len: 165 -> ASF!.aml
+10:167  0:002    15. D5183920: 'BGRT', 'TC-FB', Rev: 0, Len: 56 -> BGRT.aml
+10:171  0:003    16. D5183958: 'LUFT', 'TC-FB', Rev: 1, Len: 207330 -> LUFT.aml
+10:181  0:010    Tables in Rsdt: 17
+10:181  0:000    0. D5167148: 'FACP', 'TC-FB', Rev: 2, Len: 132 -> RSDT-FACP.aml
+10:184  0:002        (Dsdt: D51671D0, Facs: D56A7F40)
+10:184  0:000        D51671D0: 'DSDT', 'TC-FB', Rev: 2, Len: 96459
+10:185  0:001        D56A7F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+10:188  0:002    1. D517EBB0: 'APIC', 'TC-FB', Rev: 3, Len: 114
+10:188  0:000    2. D517EC28: 'FPDT', 'TC-FB', Rev: 1, Len: 68
+10:188  0:000    3. D517EC70: 'FIDT', 'TC-FB', Rev: 1, Len: 156
+10:188  0:000    4. D517ED10: 'TCPA', 'TC-FB', Rev: 2, Len: 50
+10:188  0:000    5. D517ED48: 'DBGP', 'TC-FB', Rev: 1, Len: 52
+10:188  0:000    6. D517ED80: 'SLIC', 'TC-FB', Rev: 1, Len: 374
+10:188  0:000    7. D517EEF8: 'MSDM', 'TC-FB', Rev: 3, Len: 85
+10:188  0:000    8. D517EF50: 'SSDT', 'TC-FB', Rev: 1, Len: 1337
+10:188  0:000    9. D517F490: 'SSDT', 'TC-FB', Rev: 1, Len: 2776
+10:188  0:000    10. D517FF68: 'MCFG', 'TC-FB', Rev: 1, Len: 60
+10:188  0:000    11. D517FFA8: 'HPET', 'TC-FB', Rev: 1, Len: 56
+10:188  0:000    12. D517FFE0: 'SSDT', 'TC-FB', Rev: 1, Len: 877
+10:188  0:000    13. D5180350: 'SSDT', 'TC-FB', Rev: 1, Len: 13608
+10:188  0:000    14. D5183878: 'ASF!', 'TC-FB', Rev: 32, Len: 165
+10:188  0:000    15. D5183920: 'BGRT', 'TC-FB', Rev: 0, Len: 56
+10:188  0:000    16. D5183958: 'LUFT', 'TC-FB', Rev: 1, Len: 207330
+10:188  0:000  Found UEFI Acpi 1.0 RSDP at D5167000
+10:188  0:000  Printing ACPI tables from RSDP D5167000 ...
+10:188  0:000   D5167000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:188  0:000    (Xsdt: D5167098, Rsdt: D5167028)
+10:188  0:000    D5167098: 'XSDT', 'TC-FB', Rev: 1, Len: 172
+10:188  0:000    D5167028: 'RSDT', 'TC-FB', Rev: 1, Len: 104
+10:188  0:000    Tables in Xsdt: 17
+10:188  0:000    0. D517EAA0: 'FACP', 'TC-FB', Rev: 5, Len: 268
+10:188  0:000        (Dsdt: D51671D0, Facs: D56A7F80, XDsdt: D51671D0, XFacs: 0)
+10:188  0:000        D51671D0: 'DSDT', 'TC-FB', Rev: 2, Len: 96459
+10:189  0:001        D56A7F80: 'FACS', Ver: 2, Len: 64
+10:189  0:000    1. D517EBB0: 'APIC', 'TC-FB', Rev: 3, Len: 114
+10:189  0:000    2. D517EC28: 'FPDT', 'TC-FB', Rev: 1, Len: 68
+10:189  0:000    3. D517EC70: 'FIDT', 'TC-FB', Rev: 1, Len: 156
+10:189  0:000    4. D517ED10: 'TCPA', 'TC-FB', Rev: 2, Len: 50
+10:189  0:000    5. D517ED48: 'DBGP', 'TC-FB', Rev: 1, Len: 52
+10:189  0:000    6. D517ED80: 'SLIC', 'TC-FB', Rev: 1, Len: 374
+10:189  0:000    7. D517EEF8: 'MSDM', 'TC-FB', Rev: 3, Len: 85
+10:189  0:000    8. D517EF50: 'SSDT', 'TC-FB', Rev: 1, Len: 1337
+10:189  0:000    9. D517F490: 'SSDT', 'TC-FB', Rev: 1, Len: 2776
+10:189  0:000    10. D517FF68: 'MCFG', 'TC-FB', Rev: 1, Len: 60
+10:189  0:000    11. D517FFA8: 'HPET', 'TC-FB', Rev: 1, Len: 56
+10:189  0:000    12. D517FFE0: 'SSDT', 'TC-FB', Rev: 1, Len: 877
+10:189  0:000    13. D5180350: 'SSDT', 'TC-FB', Rev: 1, Len: 13608
+10:189  0:000    14. D5183878: 'ASF!', 'TC-FB', Rev: 32, Len: 165
+10:189  0:000    15. D5183920: 'BGRT', 'TC-FB', Rev: 0, Len: 56
+10:189  0:000    16. D5183958: 'LUFT', 'TC-FB', Rev: 1, Len: 207330
+10:189  0:000    Tables in Rsdt: 17
+10:189  0:000    0. D5167148: 'FACP', 'TC-FB', Rev: 2, Len: 132
+10:189  0:000        (Dsdt: D51671D0, Facs: D56A7F40)
+10:189  0:000        D51671D0: 'DSDT', 'TC-FB', Rev: 2, Len: 96459
+10:191  0:001        D56A7F40: 'FACS', Ver: 0, Len: 64
+10:191  0:000    1. D517EBB0: 'APIC', 'TC-FB', Rev: 3, Len: 114
+10:191  0:000    2. D517EC28: 'FPDT', 'TC-FB', Rev: 1, Len: 68
+10:191  0:000    3. D517EC70: 'FIDT', 'TC-FB', Rev: 1, Len: 156
+10:191  0:000    4. D517ED10: 'TCPA', 'TC-FB', Rev: 2, Len: 50
+10:191  0:000    5. D517ED48: 'DBGP', 'TC-FB', Rev: 1, Len: 52
+10:191  0:000    6. D517ED80: 'SLIC', 'TC-FB', Rev: 1, Len: 374
+10:191  0:000    7. D517EEF8: 'MSDM', 'TC-FB', Rev: 3, Len: 85
+10:191  0:000    8. D517EF50: 'SSDT', 'TC-FB', Rev: 1, Len: 1337
+10:191  0:000    9. D517F490: 'SSDT', 'TC-FB', Rev: 1, Len: 2776
+10:191  0:000    10. D517FF68: 'MCFG', 'TC-FB', Rev: 1, Len: 60
+10:191  0:000    11. D517FFA8: 'HPET', 'TC-FB', Rev: 1, Len: 56
+10:191  0:000    12. D517FFE0: 'SSDT', 'TC-FB', Rev: 1, Len: 877
+10:191  0:000    13. D5180350: 'SSDT', 'TC-FB', Rev: 1, Len: 13608
+10:191  0:000    14. D5183878: 'ASF!', 'TC-FB', Rev: 32, Len: 165
+10:191  0:000    15. D5183920: 'BGRT', 'TC-FB', Rev: 0, Len: 56
+10:191  0:000    16. D5183958: 'LUFT', 'TC-FB', Rev: 1, Len: 207330
