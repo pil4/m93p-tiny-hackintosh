@@ -1,4 +1,4 @@
-Hackintosh for Lenovo ThinkCentre M93p Tiny
+Hackintosh for Lenovo ThinkCentre M93p Tiny (Big Sur)
 ==
 
 System Info
