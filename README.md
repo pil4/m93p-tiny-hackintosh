@@ -10,7 +10,7 @@ System Info
 * Wifi/Bluetooth  : DW1550 (Broadcom BCM4352 802.11ac Wireless, Broadcom Bluetooth 4.0)
 * Audio    : Realtek ALC283
 
-======
+=====
 * Clover   : Clover version 5070
 * OS       : macOS Mojave 10.14.6
 * CPU      : Intel Core i5-4570T CPU @ 2.90GHz
